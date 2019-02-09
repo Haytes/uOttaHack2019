@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import LoginButton from './LoginBtn';
 import logo from './logo.svg';
+import Home from './components/Home'
 import './App.css';
 
 class App extends Component {
@@ -11,7 +12,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <p>
           <br/>
-<br/>
+          <br/>
           <LoginButton/>
           
           </p>

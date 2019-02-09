@@ -8,7 +8,7 @@ export default class LoginButton extends Component {
         // Mount Login Button
         window.snap.loginkit.mountButton(loginButtonIconId, {
           clientId: '1ccc96dc-3248-44da-b594-8a9c9ff5ffa6',
-          redirectURI: 'https://www.hayterm.com',
+          redirectURI: 'http://localhost:3000/Home',
           scopeList: [
             'user.display_name',
             'user.bitmoji.avatar',
